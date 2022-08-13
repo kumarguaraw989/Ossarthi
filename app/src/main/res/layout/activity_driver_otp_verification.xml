@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bannerall"
+    tools:context=".ui.driver.DriverOtpVerificationActivity">
+    <ImageView
+        android:id="@+id/iv_verify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:src="@drawable/verify" />
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_verify"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Verify Code"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:padding="20dp"
+            android:textSize="15sp"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Please check your message and ente verification code we just send you + 91-1212121212"
+            />
+        <LinearLayout
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@+id/root_otp_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:weightSum="6">
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/otp_edit_box1"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_marginEnd="20dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:inputType="number"
+                android:maxLength="1"
+                android:textSize="30sp"
+                android:backgroundTint="@android:color/black"
+                android:visibility="visible" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/otp_edit_box2"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_marginEnd="20dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:backgroundTint="@android:color/black"
+                android:inputType="number"
+                android:maxLength="1"
+                android:textSize="30sp"
+                android:visibility="visible" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/otp_edit_box3"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:backgroundTint="@android:color/black"
+                android:inputType="number"
+                android:maxLength="1"
+                android:textSize="30sp"
+                android:visibility="visible" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/otp_edit_box4"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:backgroundTint="@android:color/black"
+                android:inputType="number"
+                android:maxLength="1"
+                android:textSize="30sp"
+                android:visibility="visible" />
+
+        </LinearLayout>
+        <View
+            android:layout_margin="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/darker_gray"/>
+        <RelativeLayout
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Don't get a code?"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="#000000"
+                />
+            <TextView
+                android:textStyle="bold"
+                android:textColor="@color/purple_700"
+                android:layout_toRightOf="@id/tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Try again"
+                android:layout_gravity="center"
+                android:gravity="center"
+                />
+        </RelativeLayout>
+        <com.skydoves.elasticviews.ElasticButton
+            android:layout_margin="20dp"
+            android:id="@+id/btn_otp_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_border"
+            android:text="VERIFY"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginBottom="50dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="By signing up you have agreed to our"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:padding="10dp"
+            android:text="Term of use Privacy Policy"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+</RelativeLayout>

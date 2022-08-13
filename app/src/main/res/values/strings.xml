@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Osaarthi</string>
+    <string name="signup">Sign up</string>
+    <string name="loginwithotp">LOGIN WITH OTP</string>
+    <string name="req_a_ride">REQUEST A RIDE</string>
+    <string name="login">Login</string>
+    <string name="loginwithfacebook">LOGIN WITH FACEBOOK</string>
+    <string name="loginwithgoogle">LOGIN WITH GOOGLE</string>
+    <string name="facebooksignup">SIGN UP WITH FACEBOOK</string>
+    <string name="alreadyaccount">Already have an account ?</string>
+    <string name="username">User name</string>
+    <string name="help">Help</string>
+    <string name="wallet">Wallet</string>
+    <string name="trips">Trips</string>
+    <string name="cash">Cash</string>
+    <string name="message">Message</string>
+    <string name="send_gift">Send a gift</string>
+    <string name="setting">Setting</string>
+    <string name="drive_or_deliver">Drive or deliver with us</string>
+    <string name="legal">Legal</string>
+    <string name="email">Email</string>
+    <string name="register">REGISTER</string>
+    <string name="submit">Submit</string>
+    <string name="password">Password</string>
+    <string name="cnfpassword">Confirm password</string>
+    <string name="adminlogin">LOGIN AS PARTNER</string>
+    <string name="userlogin">LOGIN AS USER</string>
+    <string name="driver">LOGIN AS DRIVER</string>
+    <string name="user_type">User</string>
+    <string name="driver_type">Driver</string>
+    <string name="fcm_message">@string/app_name</string>
+    <string name="default_notification_channel_name" translatable="true">Posigraph News</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="your_rides">Your Rides</string>
+    <string name="profile">Profile</string>
+    <string name="drive_booking">Drive Bokkings</string>
+    <string name="ossarthi_money">Ossarthi Money</string>
+    <string name="payments">Payments</string>
+    <string name="insurance">Insurance</string>
+    <string name="refer_earn">Refer &amp; Earn</string>
+    <string name="support">Support</string>
+    <string name="about">About</string>
+</resources>

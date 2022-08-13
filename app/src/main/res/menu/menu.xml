@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/user"
+            android:title="@string/profile" />
+        <item
+            android:id="@+id/nav_your_rides"
+            android:icon="@drawable/ic_baseline_access_time_24"
+            android:title="@string/your_rides" />
+    </group>
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_my_cart"
+            android:icon="@drawable/ic_baseline_monetization_on_24"
+            android:title="@string/ossarthi_money" />
+        <item
+            android:id="@+id/nav_terms_cond"
+            android:icon="@drawable/ic_baseline_auto_awesome_motion_24"
+            android:title="@string/payments" />
+    </group>
+    <group
+        android:id="@+id/group3"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_privacy_policy"
+            android:icon="@drawable/ic_baseline_auto_awesome_motion_24"
+            android:title="@string/insurance" />
+        <item
+            android:id="@+id/nav_contact_us"
+            android:icon="@drawable/ic_baseline_card_giftcard_24"
+            android:title="@string/refer_earn" />
+    </group>
+    <group
+        android:id="@+id/group4"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/ic_baseline_priority_high_24"
+            android:title="@string/support" />
+        <item
+            android:id="@+id/nav_complaint"
+            android:icon="@drawable/ic_baseline_info_24"
+            android:title="@string/about" />
+    </group>
+    <group
+        android:id="@+id/group5"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_baseline_power_settings_new_24"
+            android:title="Logout" />
+    </group>
+
+</menu>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f9fa"
+    tools:context=".ui.LoginMainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bannerall" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:src="@drawable/user" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <com.skydoves.elasticviews.ElasticButton
+            android:id="@+id/btn_otp_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             android:background="@drawable/button_border"
+            android:text="@string/loginwithotp"
+            android:textColor="@android:color/white" />
+
+        <com.skydoves.elasticviews.ElasticButton
+            android:id="@+id/btn_facebook_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             android:layout_marginTop="10dp"
+            android:background="@drawable/button_border"
+            android:text="@string/loginwithfacebook"
+            android:backgroundTint="#4267B2"
+            android:textColor="@android:color/white" />
+
+        <com.skydoves.elasticviews.ElasticButton
+            android:id="@+id/btn_google_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             android:layout_marginTop="10dp"
+            android:background="@drawable/button_border"
+            android:baselineAligned="false"
+            android:backgroundTint="#EA4335"
+            android:text="@string/loginwithgoogle"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+</RelativeLayout>

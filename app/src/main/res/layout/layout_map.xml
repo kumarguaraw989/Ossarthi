@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:id="@+id/layout_pin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+         android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_movable_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/location_border"
+            android:ellipsize="end"
+            android:fontFamily="@font/roboto_regular"
+            android:gravity="center"
+            android:lines="1"
+            android:padding="@dimen/_6sdp"
+            android:text="please wait......"
+            android:textColor="@android:color/white"
+            android:visibility="gone" />
+        <ProgressBar
+            android:id="@+id/pb_placeloader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:visibility="gone" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_movable_location"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:scaleType ="center"
+            android:src="@drawable/ic_icons_pin"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+</RelativeLayout>

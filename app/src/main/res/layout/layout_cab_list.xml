@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.skydoves.elasticviews.ElasticCardView
+        android:id="@+id/select_vC"
+        app:cardUseCompatPadding="true"
+        app:cardElevation="@dimen/_2sdp"
+        app:cardCornerRadius="@dimen/_3sdp"
+        android:background="@color/white"
+        app:cardBackgroundColor="#FAFAFA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/iv_cab_image"
+                android:layout_gravity="center"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:adjustViewBounds="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/loading"/>
+               <TextView
+                   android:layout_marginTop="2dp"
+                   android:text="Bike"
+                   android:layout_marginLeft="2dp"
+                   android:layout_marginRight="2dp"
+                   android:gravity="center"
+                   android:fontFamily="@font/roboto_bold"
+                   android:textColor="@color/black"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/tv_vehicle_class_name"
+                   />
+            <TextView
+                android:padding="5dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:text="Two Wheeler"
+                android:textColor="@android:color/black"
+                android:fontFamily="@font/roboto_regular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_vehicle_cat_name"
+                />
+            <View
+                android:visibility="gone"
+                android:background="@color/purple_500"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+        </LinearLayout>
+
+    </com.skydoves.elasticviews.ElasticCardView>
+
+</RelativeLayout>

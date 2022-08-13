@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bannerall"
+    tools:context=".ui.LoginTypeActivity">
+
+    <ImageView
+        android:id="@+id/iv_user"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_margin="20dp"
+        android:src="@drawable/user" />
+
+           <RadioGroup
+               android:id="@+id/radio_group"
+               android:layout_marginTop="70dp"
+               android:layout_marginLeft="50dp"
+               android:layout_below="@id/iv_user"
+               android:orientation="horizontal"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+              <RadioButton
+                  android:id="@+id/rb_customer"
+                  android:textSize="15sp"
+                  android:text="Customer"
+                  android:textStyle="bold"
+                  android:padding="10dp"
+                  android:checked="true"
+                  android:textColor="@android:color/black"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"/>
+               <RadioButton
+                   android:id="@+id/rb_driver"
+                   android:textSize="15sp"
+                   android:text="Driver"
+                   android:padding="10dp"
+                   android:textStyle="bold"
+                   android:textColor="@android:color/black"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+           </RadioGroup>
+
+
+    <com.skydoves.elasticviews.ElasticButton
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/radio_group"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/button_border"
+        android:padding="10dp"
+         android:text="@string/register"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white" />
+     <LinearLayout
+         android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <com.skydoves.elasticviews.ElasticButton
+            android:id="@+id/btn_login_as_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_border"
+            android:drawableEnd="@drawable/ic_right_arrow_7"
+            android:padding="10dp"
+            android:text="LOGIN AS USER"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white" />
+
+        <com.skydoves.elasticviews.ElasticButton
+            android:id="@+id/btn_login_as_driver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_border"
+            android:drawableEnd="@drawable/ic_right_arrow_7"
+            android:padding="10dp"
+            android:text="LOGIN AS DRIVER"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginBottom="50dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="By signing up you have agreed to our"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:padding="10dp"
+            android:text="Term of use Privacy Policy"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+</RelativeLayout>

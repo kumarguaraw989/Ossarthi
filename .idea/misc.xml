@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Pc/AndroidStudioProjects/Osaarthi/app/src/main/res/drawable/bg_grey_bottom_border.xml" value="0.3769230769230769" />
+        <entry key="..\:/Users/Pc/AndroidStudioProjects/Osaarthi/app/src/main/res/drawable/btn_grey.xml" value="0.3769230769230769" />
+        <entry key="..\:/Users/Pc/AndroidStudioProjects/Osaarthi/app/src/main/res/drawable/btn_orange.xml" value="0.3769230769230769" />
+        <entry key="..\:/Users/Pc/AndroidStudioProjects/Osaarthi/app/src/main/res/drawable/btn_rounded_orange.xml" value="0.3769230769230769" />
+        <entry key="..\:/Users/Pc/AndroidStudioProjects/Osaarthi/app/src/main/res/drawable/btn_white.xml" value="0.3769230769230769" />
+        <entry key="..\:/Users/Pc/AndroidStudioProjects/Osaarthi/app/src/main/res/drawable/button_border.xml" value="0.3769230769230769" />
+        <entry key="..\:/Users/Pc/AndroidStudioProjects/Osaarthi/app/src/main/res/drawable/dot_pickup.xml" value="0.3769230769230769" />
+        <entry key="..\:/Users/Pc/AndroidStudioProjects/Osaarthi/app/src/main/res/drawable/ratingbar.xml" value="0.3769230769230769" />
+        <entry key="..\:/Users/Pc/AndroidStudioProjects/Osaarthi/app/src/main/res/layout/activity_home.xml" value="0.33796296296296297" />
+        <entry key="..\:/Users/Pc/AndroidStudioProjects/Osaarthi/app/src/main/res/layout/activity_login_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Pc/AndroidStudioProjects/Osaarthi/app/src/main/res/layout/toolbar_home.xml" value="0.25" />
+        <entry key="..\:/osaarthi/app/src/main/res/drawable/autosearch_border.xml" value="0.144" />
+        <entry key="..\:/osaarthi/app/src/main/res/drawable/border_layout.xml" value="0.23697916666666666" />
+        <entry key="..\:/osaarthi/app/src/main/res/drawable/bottomsheet_border.xml" value="0.23697916666666666" />
+        <entry key="..\:/osaarthi/app/src/main/res/drawable/button_border.xml" value="0.375" />
+        <entry key="..\:/osaarthi/app/src/main/res/drawable/dot_dropoff.xml" value="0.144" />
+        <entry key="..\:/osaarthi/app/src/main/res/drawable/dot_pickup.xml" value="0.144" />
+        <entry key="..\:/osaarthi/app/src/main/res/drawable/doted_line_drawable.xml" value="0.144" />
+        <entry key="..\:/osaarthi/app/src/main/res/drawable/edittext_border.xml" value="0.14537037037037037" />
+        <entry key="..\:/osaarthi/app/src/main/res/drawable/horizontal_dashed_line.xml" value="0.144" />
+        <entry key="..\:/osaarthi/app/src/main/res/drawable/ic_arrow_down.xml" value="0.21388888888888888" />
+        <entry key="..\:/osaarthi/app/src/main/res/drawable/ic_baseline_access_time_24.xml" value="0.144" />
+        <entry key="..\:/osaarthi/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.23697916666666666" />
+        <entry key="..\:/osaarthi/app/src/main/res/drawable/ic_baseline_gps_fixed_24.xml" value="0.151" />
+        <entry key="..\:/osaarthi/app/src/main/res/drawable/ic_baseline_history_24.xml" value="0.23697916666666666" />
+        <entry key="..\:/osaarthi/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.23697916666666666" />
+        <entry key="..\:/osaarthi/app/src/main/res/drawable/ic_baseline_vpn_key_24.xml" value="0.23697916666666666" />
+        <entry key="..\:/osaarthi/app/src/main/res/drawable/ic_baseline_watch_later_24.xml" value="0.21388888888888888" />
+        <entry key="..\:/osaarthi/app/src/main/res/drawable/ic_baseline_watch_later_25.xml" value="0.21388888888888888" />
+        <entry key="..\:/osaarthi/app/src/main/res/drawable/ic_circle_30.xml" value="0.20833333333333334" />
+        <entry key="..\:/osaarthi/app/src/main/res/drawable/ic_cross_19.xml" value="0.20833333333333334" />
+        <entry key="..\:/osaarthi/app/src/main/res/drawable/ic_down_arrow_7.xml" value="0.20833333333333334" />
+        <entry key="..\:/osaarthi/app/src/main/res/drawable/ic_email_99.xml" value="0.375" />
+        <entry key="..\:/osaarthi/app/src/main/res/drawable/ic_icons_pin.xml" value="0.144" />
+        <entry key="..\:/osaarthi/app/src/main/res/drawable/ic_location_248.xml" value="0.144" />
+        <entry key="..\:/osaarthi/app/src/main/res/drawable/ic_lock_126.xml" value="0.375" />
+        <entry key="..\:/osaarthi/app/src/main/res/drawable/ic_menu_66.xml" value="0.23697916666666666" />
+        <entry key="..\:/osaarthi/app/src/main/res/drawable/ic_mic_18.xml" value="0.20833333333333334" />
+        <entry key="..\:/osaarthi/app/src/main/res/drawable/ic_right_arrow_7.xml" value="0.15" />
+        <entry key="..\:/osaarthi/app/src/main/res/drawable/ic_time.xml" value="0.21388888888888888" />
+        <entry key="..\:/osaarthi/app/src/main/res/drawable/ic_user_117__1_.xml" value="0.375" />
+        <entry key="..\:/osaarthi/app/src/main/res/drawable/ratingbar.xml" value="0.22135416666666666" />
+        <entry key="..\:/osaarthi/app/src/main/res/drawable/rounded_border.xml" value="0.151" />
+        <entry key="..\:/osaarthi/app/src/main/res/drawable/shape_vertical_dashed_line.xml" value="0.144" />
+        <entry key="..\:/osaarthi/app/src/main/res/layout/activity_admin_login.xml" value="0.25" />
+        <entry key="..\:/osaarthi/app/src/main/res/layout/activity_driver_dashboard.xml" value="0.22083333333333333" />
+        <entry key="..\:/osaarthi/app/src/main/res/layout/activity_driver_login.xml" value="0.1" />
+        <entry key="..\:/osaarthi/app/src/main/res/layout/activity_driver_otp_verification.xml" value="0.20677083333333332" />
+        <entry key="..\:/osaarthi/app/src/main/res/layout/activity_driver_registration.xml" value="0.25" />
+        <entry key="..\:/osaarthi/app/src/main/res/layout/activity_home.xml" value="0.18" />
+        <entry key="..\:/osaarthi/app/src/main/res/layout/activity_login_main.xml" value="0.2" />
+        <entry key="..\:/osaarthi/app/src/main/res/layout/activity_login_type.xml" value="0.18888888888888888" />
+        <entry key="..\:/osaarthi/app/src/main/res/layout/activity_login_with_otp.xml" value="0.25" />
+        <entry key="..\:/osaarthi/app/src/main/res/layout/activity_login_with_otp_user.xml" value="0.35260416666666666" />
+        <entry key="..\:/osaarthi/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/osaarthi/app/src/main/res/layout/activity_maps.xml" value="0.22083333333333333" />
+        <entry key="..\:/osaarthi/app/src/main/res/layout/activity_ride.xml" value="0.15" />
+        <entry key="..\:/osaarthi/app/src/main/res/layout/activity_select_drop_location.xml" value="0.22083333333333333" />
+        <entry key="..\:/osaarthi/app/src/main/res/layout/activity_select_pick_up_location.xml" value="0.15" />
+        <entry key="..\:/osaarthi/app/src/main/res/layout/activity_sign_up.xml" value="0.25" />
+        <entry key="..\:/osaarthi/app/src/main/res/layout/activity_sign_up2.xml" value="0.20520833333333333" />
+        <entry key="..\:/osaarthi/app/src/main/res/layout/activity_user_booking_list.xml" value="0.21743589743589745" />
+        <entry key="..\:/osaarthi/app/src/main/res/layout/activity_user_info.xml" value="0.14629629629629629" />
+        <entry key="..\:/osaarthi/app/src/main/res/layout/activity_user_otp_verification.xml" value="0.22083333333333333" />
+        <entry key="..\:/osaarthi/app/src/main/res/layout/app_bar_main.xml" value="0.25" />
+        <entry key="..\:/osaarthi/app/src/main/res/layout/header_layout.xml" value="0.22083333333333333" />
+        <entry key="..\:/osaarthi/app/src/main/res/layout/layout_booking_details_bottonsheet.xml" value="0.25" />
+        <entry key="..\:/osaarthi/app/src/main/res/layout/layout_cab_book_now.xml" value="0.22" />
+        <entry key="..\:/osaarthi/app/src/main/res/layout/layout_cab_list.xml" value="0.25" />
+        <entry key="..\:/osaarthi/app/src/main/res/layout/layout_for_rides.xml" value="0.22" />
+        <entry key="..\:/osaarthi/app/src/main/res/layout/layout_map.xml" value="0.22083333333333333" />
+        <entry key="..\:/osaarthi/app/src/main/res/layout/layout_profile.xml" value="0.21743589743589745" />
+        <entry key="..\:/osaarthi/app/src/main/res/layout/layout_user_bookinglist.xml" value="0.33" />
+        <entry key="..\:/osaarthi/app/src/main/res/layout/layout_vehicle_details.xml" value="0.22083333333333333" />
+        <entry key="..\:/osaarthi/app/src/main/res/layout/toolbar_home.xml" value="0.36666666666666664" />
+        <entry key="..\:/osaarthi/app/src/main/res/layout/vehiclelistpopup.xml" value="0.22083333333333333" />
+        <entry key="..\:/osaarthi/app/src/main/res/menu/menu.xml" value="0.22083333333333333" />
+        <entry key="..\:/osaarthi/app/src/main/res/xml/file_paths.xml" value="0.22083333333333333" />
+        <entry key="app/src/main/res/drawable/ic_baseline_mobile.xml" value="0.122" />
+        <entry key="app/src/main/res/drawable/ic_baseline_mobile_friendly_24.xml" value="0.122" />
+        <entry key="app/src/main/res/drawable/ic_facebook_130.xml" value="0.122" />
+        <entry key="app/src/main/res/drawable/ic_google_55.xml" value="0.122" />
+        <entry key="app/src/main/res/drawable/ic_logo1_removebg_preview.xml" value="0.122" />
+        <entry key="app/src/main/res/layout/activity_admin_login.xml" value="0.21041666666666667" />
+        <entry key="app/src/main/res/layout/activity_driver_login.xml" value="0.21041666666666667" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.21041666666666667" />
+        <entry key="app/src/main/res/layout/activity_login_main.xml" value="0.21041666666666667" />
+        <entry key="app/src/main/res/layout/activity_login_with_otp.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_login_with_otp_user.xml" value="0.21041666666666667" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/activity_sign_up2.xml" value="0.21041666666666667" />
+        <entry key="app/src/main/res/layout/toolbar_home.xml" value="0.21041666666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
